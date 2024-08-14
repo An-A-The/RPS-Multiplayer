@@ -1,0 +1,22 @@
+# Multiplayer Rock-Paper-Scissors Game
+
+This is a simple multiplayer Rock-Paper-Scissors game implemented using Python and Socket.IO. The game allows two players to connect to a server, make their choices, and then the server determines the winner based on the standard Rock-Paper-Scissors rules.
+
+## Features
+
+- **Real-time multiplayer gameplay:** Two players can play the game in real-time.
+- **Socket.IO:** Used for efficient, event-driven communication between clients and the server.
+- **Simple and extensible:** Basic implementation that can be extended with additional features.
+
+## Requirements
+
+- Python 3.x
+- `python-socketio` package
+- `eventlet` package
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/rock-paper-scissors.git
+   cd rock-paper-scissors
